@@ -1,4 +1,11 @@
-import { StyleSheet, Text, View, Pressable, Image } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Pressable,
+  Image,
+  Platform,
+} from "react-native";
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import MealDetails from "./MealDetails";
